@@ -1,0 +1,202 @@
+.baskets {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 260px;
+}
+
+.baskets__title {
+    margin: 0px;
+}
+
+.baskets__weekly-item {
+    text-transform: uppercase;
+    color: #61d1bb;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.baskets__description {
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+.baskets__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.baskets__tables {
+    line-height: 20px;
+    margin-bottom: 29px;
+    border-collapse: collapse;
+}
+
+.t-baskets__info1 {
+    height: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d3d2d2;
+}
+
+.t-baskets__info2 {
+    height: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d3d2d2;
+}
+
+
+.picture {
+    &--mobile {
+        margin-bottom: 25px;
+    }
+    &--tablet {
+        display: none;
+    }
+    &--desktop {
+        display: none;
+    }
+}
+
+.baskets__price {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.price__howmany {
+    margin: 0px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #444444;
+}
+
+.price__button {
+
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid #444;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    height: 52px;
+}
+
+
+@media (min-width: 768px) {
+    .baskets {
+        margin-top:45px ;
+        width: 668px;
+        position: relative;
+    }
+
+    .baskets__title {
+        font-size: 43px;
+        line-height: 50px;
+    }
+
+    .baskets__weekly-item {
+        font-size: 17px;
+        line-height: 17px;
+        width: 75px;
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    .baskets__wrapper {
+        margin-top: 55px;
+    }
+
+    .baskets__description {
+        width: 283px;
+        font-size: 17px;
+        line-height: 30px;
+        margin-bottom: 32px;
+    }
+
+    .baskets__tables {
+        margin-bottom: 55px;
+        width: 290px;
+    }
+
+    .picture {
+        &--mobile {
+            display: none;
+        }
+        &--tablet {
+            display: block;
+            margin: 0px;
+            position: absolute;
+            top: 105px;
+            right: 0;
+        }
+        &--desktop {
+            display: none;
+        }
+    }
+    
+    .baskets__price {
+        width: 290px;
+    }
+
+    .price__howmany {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 31px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .baskets {
+        margin-top: 72px;
+        width: 1050px;
+        padding-left: 175px;
+        box-sizing: border-box;
+    }
+
+    .baskets__title {
+        margin-top: 0;
+        padding-top: 43px;
+        font-size: 53px;
+        line-height: 57px;
+    }
+
+    .picture {
+        &--mobile {
+            display: none;
+        }
+        &--tablet {
+            display: none;
+        }
+        &--desktop {
+            z-index: -1;
+            display: block;
+            margin: 0px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    .baskets__weekly-item {
+        top: 58px;
+        left: 48px;
+    }
+
+    .baskets__tables {
+        margin-bottom: 110px;
+    }
+
+    .baskets__description {
+        margin-bottom: 55px;
+    }
+    
+}
