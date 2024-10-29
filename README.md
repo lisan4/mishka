@@ -1,3 +1,3 @@
 # mishka
 
-## [Демо](https://lisan4.github.io/mishka2/) проекта
+## [Демо](https://lisan4.github.io/mishka/) проекта
